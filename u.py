@@ -26,4 +26,5 @@ headers = {'Content-Type': 'application/json'}
 url = InstanceUrl
 r = requests.get(url, json=data, headers=headers)
 print( r.status_code)
+print(r.content)
 
