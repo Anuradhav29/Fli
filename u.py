@@ -9,6 +9,7 @@
 
 import requests
 import sys
+import re
 
 
 InstanceUrl = sys.argv[1]
